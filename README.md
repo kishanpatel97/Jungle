@@ -17,16 +17,16 @@ Clone of Amazon.com with tweaks using React.js, Next.js, NextAuth, Tailwind CSS,
 -   User authentication using Next.js and NextAuth (Sign in options with Google, Apple, Facebook, etc.)
 -   Payment page create with Stripe API
 
-# Installation Steps
+## Installation Steps
 
-## Using npm
+### Using npm
 
 Run commands
 
 1. `npm install`
 2. `npm run dev`
 
-## Or using yarn
+### Or using yarn
 
 Run commands
 
