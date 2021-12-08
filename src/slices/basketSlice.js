@@ -1,16 +1,16 @@
-import { createSlice } from "@reduxjs/toolkit";
+import { createSlice } from '@reduxjs/toolkit';
 
 const initialState = {
-  items: [],
+    items: [],
 };
 
 export const basketSlice = createSlice({
-  name: "basket",
-  initialState,
-  reducers: {
-    addToBasket: (state, action) => {},
-    removeFromBasket: (state, action) => {},
-  },
+    name: 'basket',
+    initialState,
+    reducers: {
+        addToBasket: (state, action) => {},
+        removeFromBasket: (state, action) => {},
+    },
 });
 
 export const { addToBasket, removeFromBasket } = basketSlice.actions;
